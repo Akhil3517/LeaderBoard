@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000'; // Update if your backend runs elsewhere
+const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000'; // Uses env var if set, else localhost
 
 export async function getUsers() {
   const res = await fetch(`${API_BASE}/users`);
