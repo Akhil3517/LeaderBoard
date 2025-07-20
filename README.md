@@ -33,13 +33,9 @@ leaderboard/
 ## Tech Stack
 - **Frontend:** React, CSS
 - **Backend:** Node.js, Express
-- **Database:** MongoDB (Atlas recommended)
+- **Database:** MongoDB
 
 ## Getting Started
-
-### Prerequisites
-- Node.js & npm
-- MongoDB Atlas account (or local MongoDB)
 
 ### Backend Setup
 ```bash
